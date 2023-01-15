@@ -1,1 +1,1 @@
-# This portfolio is dedicated to anything I created that is dedicated to cybersecurirty!
+# This portfolio is dedicated to anything I create that is related to cybersecurirty!
