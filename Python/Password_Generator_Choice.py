@@ -1,7 +1,6 @@
 import string
 import random
 
-
 # characters to generate password from
 letters = list(string.ascii_letters)
 numbers = list(string.digits)
@@ -28,10 +27,8 @@ def generate_random_password():
     for i in range(spec_char_count):
         password.append(random.choice(special_characters))
 
-
     # shuffling the resultant password
     random.shuffle(password)
-
 	
 	# printing the list
     print("".join(password))
@@ -39,7 +36,6 @@ def generate_random_password():
     length = str(letter_count + number_count + spec_char_count)
 
     print("Your password is " + length + " characters long.")
-
 
 ## invoking the function
 generate_random_password()
