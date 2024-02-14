@@ -1,7 +1,6 @@
 import string
 import random
 
-
 # characters to generate password from
 characters = list(string.ascii_letters + string.digits + "!@#$%^&*()")
 
@@ -19,12 +18,9 @@ def generate_random_password():
 
 	# shuffling the resultant password
 	random.shuffle(password)
-
 	
 	# printing the list
 	print("".join(password))
-
-
 
 ## invoking the function
 generate_random_password()
